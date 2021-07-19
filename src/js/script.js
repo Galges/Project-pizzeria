@@ -352,7 +352,7 @@
       }
     },
 
-  initCart: function() {
+    initCart: function() {
       const thisApp = this;
       const cartElem = document.querySelector(select.containerOf.cart);
       thisApp.cart = new Cart(cartElem);
