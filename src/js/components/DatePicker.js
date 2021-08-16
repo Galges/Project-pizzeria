@@ -2,7 +2,7 @@ import BaseWidget from '../Components/BaseWidget.js';
 import utils from '../utils.js';
 import {select, settings} from '../settings.js';
 
-class DatePicker extends BaseWidget{
+class DataPicker extends BaseWidget{
   constructor(wrapper){
     super(wrapper, utils.dateToStr(new Date()));
     const thisWidget = this;
@@ -46,4 +46,4 @@ class DatePicker extends BaseWidget{
   }
 }
 
-export default DatePicker;
+export default DataPicker;
